@@ -593,6 +593,9 @@ textarea::placeholder {
     color: aliceblue;
     text-decoration: none;
 }
+.socialHandles span a svg{
+    margin: 0 15px;
+}
 
 .OrSign {
     font-size: x-large;

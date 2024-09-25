@@ -150,6 +150,10 @@
         font-size: 85%;
         font-weight: 300;
     }
+
+    .socialHandles span a svg{
+        margin: 0 10px;
+    }
 }
 
 /* -----------------MEDIUM---DISPLAYS---MOBILES---------------- */
@@ -203,7 +207,19 @@
         font-weight: 300;
     }
 
+    .socialHandles span a svg{
+        margin: 0 10px;
+    }
+
+    
+    .myResumeButtonLink{
+        margin-left: 20%;
+    }
 }
+
+
+
+
 
 /* -----------------LARGE---DISPLAYS---MOBILES---------------- */
 
@@ -243,6 +259,10 @@
     .briefAboutMe {
         font-size: 75%;
         font-weight: 300;
+    }
+
+    .myResumeButtonLink{
+        margin-left: 33%;
     }
 }
 
