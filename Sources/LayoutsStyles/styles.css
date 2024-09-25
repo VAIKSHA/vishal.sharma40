@@ -309,6 +309,7 @@ body {
 }
 
 .contactsIcons {
+    /* z-index: 0; */
     opacity: .2;
     position: fixed;
     bottom: 0px;
@@ -320,6 +321,7 @@ body {
     justify-content: center;
     flex-direction: column;
     row-gap: 30px !important;
+    
 }
 
 .contactsIcons a {
@@ -335,9 +337,11 @@ body {
 }
 
 .simpleVerticalLine {
+    /* z-index: 0; */
     height: 200px;
     width: 2px;
     background-color: aliceblue;
+    
 }
 
 
@@ -573,13 +577,16 @@ textarea::placeholder {
 }
 
 .mainFooter {
+    /* z-index: 1000; */
     height: 50px;
     background-color: #233554;
+    /* background-color: rgb(28, 28, 28); */
     color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 20vw;
+    
 }
 
 .socialHandles span a {

@@ -182,7 +182,7 @@
     .nameBox {
         text-align: center;
         width: max-content;
-        font-size: 1.6em !important;
+        font-size: 2em !important;
     }
 
     @keyframes textAnimate {
@@ -194,7 +194,7 @@
 
     .whatIDO {
         top: 35vh;
-        font-size: 1.5em;
+        font-size: 1.3em;
         padding-right: 20px;
     }
 
